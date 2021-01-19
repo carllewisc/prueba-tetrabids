@@ -1,0 +1,10 @@
+/* MAPA */
+section.mapa {
+	width: 100%;
+	overflow: hidden;
+	border: .75em solid black;
+	iframe {
+		width: 100%;
+		max-height: 600px;
+	}
+}

@@ -1,0 +1,51 @@
+.main {
+	background-color: #000917;
+	color: rgba(243,243,243,255);
+
+	.main-quienes {
+		margin-top: 0;
+		p {
+			color: #fbe9e7;
+		    font-weight: 300;
+		}
+
+		.main-quienes-header__titulo { 
+			margin-top: 1em;
+			text-align: center;
+			font-weight: 500;
+			font-size: 2.578125rem;
+		}
+		.main-quienes-header__description {
+			margin-bottom: 2.5rem;
+			text-align: center;
+			@media screen and (min-width: 650px) {
+				margin-bottom: 8rem;
+			}
+		}
+	}
+}
+
+.main-quienes {
+	.main-quienes-footer {
+		text-align: center;
+		@media screen and (min-width: 650px) {
+			padding: 2rem;
+			
+			display: grid;
+			grid-template-columns: 50% 50%;
+			grid-column-gap: 3rem;
+		}
+		.main-quienes-footer-div {
+			header {
+				img {
+					display: inline-block;
+				}
+				h2 {
+					font-size: 2.578125rem;
+					font-weight: normal;
+					margin: .4rem;
+				}
+			}
+		}
+	}
+}

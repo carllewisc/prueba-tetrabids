@@ -1,0 +1,22 @@
+footer {
+    background-color: #101010;
+    p {
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-weight: 300; 
+    }
+}
+
+.ir-arriba {
+    display: none;
+    padding: 16px;
+    background: #f19f30;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}

@@ -1,0 +1,92 @@
+/* PLANES PRICING STYLES */
+.planes {
+	padding-bottom: 4.1666rem
+}
+
+.planes-button-color-square {
+	color: #fff;
+	background-color: #23547c;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	&:hover {
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.50);
+		border: none;
+	}
+}
+
+.planes-pricing-eleven {
+	margin-bottom: 30px;
+	margin-top: 50px;
+	text-align: center;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	color: $blanco;
+	line-height: 30px;
+
+	.planes-tipo {
+		background-color: #636363;
+		padding: 50px 20px;
+		font-weight: 100;
+		text-transform: uppercase;
+		font-size: 30px;
+	}
+
+	.planes-precio {
+		background-color: rgba(0, 0, 0, 0.5);
+		padding: 40px 20px 20px 20px;
+		font-size: 60px;
+		font-weight: 900;
+		color: $blanco;
+		small {
+			color: #B8B8B8;
+			display: block;
+			font-size: 0.75rem;
+			margin-top: 22px;
+		}
+	}
+
+ 	ul {
+		list-style: none;
+		margin: 0;
+		text-align: center;
+		padding-left: 0px;
+		color: #727272;
+		background-color: $blanco;
+		li {
+			padding-top: 0px;
+			padding-bottom: 20px;
+			cursor: pointer;
+			text-align: justify;
+			margin-left: 13%;
+			i {
+				margin-right: 5px;
+			}
+		}
+	}
+
+	.precio-footer {
+		padding: 1.25rem;
+		background-color: #fff;
+		border-top: 1px solid #ccc;
+	}
+}
+
+.planes-attached > .col-lg-4,
+.planes-attached > .col-lg-3,
+.planes-attached > .col-md-4,
+.planes-attached > .col-md-3,
+.planes-attached > .col-sm-4,
+.planes-attached > .col-sm-3 {
+	padding-left: 0;
+	padding-right: 0;	
+}
+
+.planes-attached > .col-lg-4, 
+.planes-attached > .col-lg-3, 
+.planes-attached > .col-md-4, 
+.planes-attached > .col-md-3,
+.planes-attached > .col-sm-4,
+.planes-attached > .col-sm-3 {
+	margin: 0 1.45rem;
+}

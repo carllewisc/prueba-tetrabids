@@ -1,0 +1,102 @@
+$fuente			: 'Roboto';
+$border-color	: #ebecec;
+$primary        : #45bafc;
+$container      : 1050px;
+$medium-screen        : 650px;
+$dark                 : #1d1e25;
+$padding              : 2rem;
+$light                : #bec6d5;
+
+$blanco: #fff;
+
+
+body {
+	font-family: $fuente, 'sans-serif';
+	box-sizing: border-box;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	.flex {
+		display: initial;
+	}
+
+	.offset-left {
+		margin-left: 15%!important;
+	}
+}
+
+
+
+@import 'header';
+@import 'acerca';
+// @import 'servicios';
+@import 'linea-imagen';
+@import 'planes';
+@import 'contacto';
+@import 'mapa';
+@import 'footer';
+
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+/* FOMULARIO DE CONTACTO */
+.container, .small-container {
+    padding: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+	margin: 0;
+}
+
+.ama{
+	margin-top: 201px;
+	margin-bottom: 133px;
+	color: $blanco;
+	h3 {
+		font-size: 42px;
+		text-align:center;
+		font-weight: 400;
+		margin-top: 17px;
+	}
+	p {
+		font-size: 16px;
+		text-align:center;
+		font-weight: 300;
+	}
+}
+
+.wwa {
+    margin-top: 8px;
+    text-align: center;
+	h2 {
+	    font-size: 28px;
+	    color: #2f2f2f;
+	    font-weight: 400;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.col-md-3 {
+	    width: 25%;
+	    float: left;
+	}
+}
